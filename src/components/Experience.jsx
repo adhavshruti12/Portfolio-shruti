@@ -9,7 +9,7 @@ function Experience() {
       role: "Java Spring Boot Intern",
       period: "July 2024 - Present",
       description: "Developed robust backend systems using Spring Boot, Hibernate, and Data JPA with seamless database management in MySQL. Designed and tested RESTful APIs using Postman to enable efficient communication between components. Collaborated with teams to integrate dynamic user interfaces and deliver high-performing features. Ensured smooth functionality through thorough testing and debugging for optimal user satisfaction.",
-      technologies: ["Spring Boot", "Hibernate", "Data JPA", "REST API", "Postman tool", "DBMS", "MySQl"]
+      technologies: ["Spring Boot", "Hibernate", "Data JPA", "REST API", "MVC", "Postman tool", "DBMS", "MySQl"]
     },
     {
       company: "GrapplTech",
