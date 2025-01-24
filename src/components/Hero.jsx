@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function Hero() {
   const [text, setText] = useState('');
-  const fullText = "Your Name";
+  const fullText = "Shruti Shreekant Adhav";
   const typingSpeed = 150;
 
   useEffect(() => {
@@ -38,7 +38,7 @@ function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-300 mb-8"
         >
-          Software Developer | Problem Solver | Tech Enthusiast
+          Software Developer | Java Developer | Tech Enthusiast
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
