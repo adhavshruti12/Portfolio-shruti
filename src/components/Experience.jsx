@@ -6,26 +6,26 @@ function Experience() {
     {
       company: "Sibic Business Incubator",
       location: "Kolhapur, India",
-      role: "React Developer",
-      period: "Mar 2023 - Present",
-      description: "Designed and developed dynamic user interfaces for seamless user experiences. Collaborated with UI/UX designers and back-end developers to create interactive and responsive components. Implemented complex features and optimized performance to enhance usability and functionality. Conducted thorough testing and debugging to ensure smooth application functionality and user satisfaction",
-      technologies: ["Javascript", "React", "React Router", "CSS", "Formik & Yup", "Material UI", "Recharts", "AXIOS", "Full Calender", "Git", "Github"]
+      role: "Java Spring Boot Intern",
+      period: "July 2024 - Present",
+      description: "Developed robust backend systems using Spring Boot, Hibernate, and Data JPA with seamless database management in MySQL. Designed and tested RESTful APIs using Postman to enable efficient communication between components. Collaborated with teams to integrate dynamic user interfaces and deliver high-performing features. Ensured smooth functionality through thorough testing and debugging for optimal user satisfaction.",
+      technologies: ["Spring Boot", "Hibernate", "Data JPA", "REST API", "Postman tool", "DBMS", "MySQl"]
     },
     {
-      company: "Tech Solutions Inc.",
+      company: "GrapplTech",
       location: "Remote",
-      role: "Frontend Developer Intern",
-      period: "Sep 2022 - Feb 2023",
-      description: "Worked on developing responsive web applications using React and modern JavaScript. Participated in code reviews and implemented feedback from senior developers. Assisted in the development of reusable components and maintained documentation.",
-      technologies: ["React", "JavaScript", "HTML5", "CSS3", "Bootstrap", "Git", "Jira"]
+      role: "Software Developer Intern",
+      period: "July 2024 - August 2024",
+      description: "Built responsive and interactive user interfaces using HTML5, CSS3, JavaScript, and Bootstrap for seamless user experiences. Utilized GitHub for version control and collaboration, ensuring efficient project management and code integrity.",
+      technologies: ["HTML5", "CSS3","JavaScript","Bootstrap", "GitHub"]
     },
     {
-      company: "WebDev Studio",
-      location: "Pune, India",
-      role: "Web Development Intern",
-      period: "Jun 2022 - Aug 2022",
-      description: "Gained hands-on experience in web development technologies. Assisted in building and maintaining client websites. Learned best practices in web development and version control.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Git"]
+      company: "Triplet's Services",
+      location: "Sangli, India",
+      role: "Student Intern",
+      period: "Jun 2023 - Aug 2023",
+      description: "Designed and managed efficient database systems using SQL and DBMS for seamless data storage and retrieval. Optimized queries to improve performance and ensure reliable data handling across applications.",
+      technologies: ["SQL", "DBMS"]
     }
   ];
 
