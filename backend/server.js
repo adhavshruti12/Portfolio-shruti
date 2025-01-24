@@ -8,11 +8,12 @@ dotenv.config();
 const app = express();
 
 // CORS setup
-app.options('*', cors({
-  origin: 'https://portfolio-shruti-vawt.vercel.app',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-}));
+const corsOptions = {
+  origin: 'https://portfolio-shruti-vawt.vercel.app', // Replace with your frontend URL
+  methods: 'GET,POST,PUT,DELETE,OPTIONS',
+  credentials: true,
+};
+
 // Middleware
 app.use(bodyParser.json());
 app.use(cors(corsOptions));
