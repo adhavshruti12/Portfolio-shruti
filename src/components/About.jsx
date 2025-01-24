@@ -10,7 +10,7 @@ function About() {
         className="text-center mb-16"
       >
         <span className="text-5xl md:text-6xl font-bold text-glow">
-          About Me
+          Snapshot of me
         </span>
       </motion.h2>
 
