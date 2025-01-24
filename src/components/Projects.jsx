@@ -6,7 +6,7 @@ function Projects() {
     {
       title: "Movie Recommendation System",
       description: "A system that recommends movie based on user's preferences using collaborative filtering and content-based filtering techniques.",
-      image: "../images/mv.png",
+      image: "https://unsplash.com/photos/digital-code-number-abstract-background-represent-coding-technology-and-programming-languages-D6P8FNyZxx4",
       tags: ["Spring Boot", "Flask", "Machine Learning: Scikit-learn", "JPA (Java Persistence API)"],
       link: "https://github.com/adhavshruti12/Movie_recommendation_system.git"
     },
