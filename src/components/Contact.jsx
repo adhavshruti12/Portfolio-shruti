@@ -28,7 +28,7 @@ function Contact() {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/contact', formData, {
+      const response = await axios.post('https://portfolio-shruti-obkv.vercel.app/api/contact', formData, {
         headers: {
           'Content-Type': 'application/json',
         },
