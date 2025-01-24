@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 function Skills() {
- const skills = [
+  const skills = [
     {
       name: "JavaScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -51,8 +51,6 @@ function Skills() {
       name: "Docker",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
     }
-];
-
   ];
 
   return (
