@@ -4,25 +4,25 @@ import { motion } from 'framer-motion';
 function Education() {
   const education = [
     {
-      school: "Shivaji University",
+      school: "Nansaheb Mahadik College of Engineering",
       degree: "Bachelor of Engineering in Computer Science",
-      period: "2019 - 2023",
-      location: "Kolhapur, India",
+      period: "2021 - 2025",
+      location: "Sangli, India",
       description: "Focused on core computer science concepts, software engineering principles, and modern web technologies. Participated in various technical competitions and workshops.",
       achievements: [
         "First Class with Distinction",
-        "Member of College Technical Club",
-        "Participated in National Level Hackathons"
+        "Core team member of Google Developer Students Club",
+       
       ]
     },
     {
       school: "Maharashtra State Board",
       degree: "Higher Secondary Education (HSC)",
-      period: "2017 - 2019",
-      location: "Kolhapur, India",
-      description: "Completed HSC with focus on Physics, Chemistry, and Mathematics.",
+      period: "2019 - 2020",
+      location: "Mumbai, India",
+      description: "Completed HSC with focus on Physics, Chemistry, Biology and Mathematics.",
       achievements: [
-        "Scored 85% in final examinations",
+        "Scored 86.67% in final examinations",
         "Active participant in Science exhibitions"
       ]
     }
