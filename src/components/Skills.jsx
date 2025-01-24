@@ -4,56 +4,80 @@ import { motion } from 'framer-motion';
 function Skills() {
   const skills = [
     {
-      name: "Java",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+      name: 'Java',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+      color: 'text-red-500',
     },
     {
-      name: "Spring Boot",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+      name: 'SpringBoot',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg',
+      color: 'text-green-500',
     },
     {
-      name: "Hibernate",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" // Hibernate doesn't have an official icon, so Java's icon is used here
+      name: 'Hibernate',
+      icon: 'https://hibernate.org/images/hibernate_icon_whitebkg.svg',
+      color: 'text-yellow-500',
     },
     {
-      name: "SQL",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+      name: 'REST APIs',
+      icon: 'https://www.svgrepo.com/show/375531/api.svg',
+      color: 'text-purple-500',
     },
     {
-      name: "Postman",
-      icon: "https://www.svgrepo.com/show/354202/postman-icon.svg"
+      name: 'HTML5',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+      color: 'text-orange-500',
     },
     {
-      name: "HTML5",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      name: 'CSS3',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+      color: 'text-blue-500',
     },
     {
-      name: "CSS3",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+      name: 'JavaScript',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+      color: 'text-yellow-400',
     },
     {
-      name: "JavaScript",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      name: 'Node.js',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+      color: 'text-green-500',
     },
     {
-      name: "React",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      name: 'Express.js',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+      color: 'text-red-500',
     },
     {
-      name: "Node.js",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      name: 'MongoDB',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+      color: 'text-orange-500',
     },
     {
-      name: "MongoDB",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+      name: 'Postman',
+      icon: 'https://www.svgrepo.com/show/354202/postman-icon.svg',
+      color: 'text-orange-500',
+    },
+    {
+      name: 'VSCode',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+      color: 'text-blue-500',
+    },
+    {
+      name: 'Github',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+      color: 'text-purple-500',
+    },
+    {
+      name: 'Vercel',
+      icon: 'https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg',
+      color: 'text-green-500',
     },
     {
       name: "Power BI",
-      icon: "https://www.svgrepo.com/show/376356/power-bi.svg"
+      icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Power_BI_Logo.svg"
     }
   ];
-  
-  
 
   return (
     <div className="container mx-auto px-4 py-20">
