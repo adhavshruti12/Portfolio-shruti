@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import axios from 'axios';
 
 function Contact() {
@@ -50,18 +50,18 @@ function Contact() {
     {
       title: "Connect on LinkedIn",
       icon: <FaLinkedin className="text-4xl" />,
-      url: "#",
+      url: "https://www.linkedin.com/in/shruti-adhav-087161242/",
       external: true
     },
     {
       title: "Check repos on Github",
       icon: <FaGithub className="text-4xl" />,
-      url: "#",
+      url: "https://github.com/adhavshruti12",
       external: true
     },
     {
-      title: "Follow on Instagram",
-      icon: <FaInstagram className="text-4xl" />,
+      title: "Follow on Twitter",
+      icon: <FaTwitter className="text-4xl" />,
       url: "#",
       external: true
     }
@@ -70,17 +70,17 @@ function Contact() {
   const contactInfo = [
     {
       icon: <FaEnvelope className="text-2xl" />,
-      text: "pratikdjadhav16@gmail.com",
+      text: "adhavshruti12@gmail.com",
       copyable: true
     },
     {
       icon: <FaPhone className="text-2xl transform rotate-90" />,
-      text: "+91 7620094762",
+      text: "+91 7715893512",
       copyable: true
     },
     {
       icon: <FaMapMarkerAlt className="text-2xl" />,
-      text: "Currently in Pune, India",
+      text: "Mumbai, India",
       external: true
     }
   ];
