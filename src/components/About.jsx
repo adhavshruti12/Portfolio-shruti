@@ -23,14 +23,13 @@ function About() {
           />
         </div>
         <div className="flex flex-col justify-center">
-          <h3 className="text-4xl font-bold mb-6 text-white">Building with passion</h3>
+          <h3 className="text-4xl font-bold mb-6 text-white">Innovating with passion</h3>
           <div className="space-y-4 text-gray-300 text-lg">
             <p>
-              I am driven by a deep passion for front-end development, continuously exploring new ways to create engaging and intuitive user experiences. With a solid foundation in JavaScript, React, and Redux Toolkit, I focus on building responsive, dynamic, and visually appealing web applications. My approach combines creativity with technical expertise, ensuring high-quality, efficient code that solves complex challenges.
-            </p>
+             I am a dedicated Java developer with a strong foundation in building robust backend systems using Spring Boot, Hibernate, and REST APIs. My expertise lies in designing scalable, efficient, and maintainable applications that adhere to the MVC architecture while ensuring seamless integration with DBMS solutions.
             <p>
-              I am committed to staying up-to-date with the latest technologies and best practices, always looking for opportunities to learn and grow. Whether it's enhancing user interfaces or implementing new features, I take pride in my work and enjoy collaborating with others to bring innovative ideas to life.
-            </p>
+             <p>With a passion for clean and efficient coding practices, I take pride in solving complex problems and delivering high-quality software solutions. Beyond backend development, I am expanding my skill set to include the MERN stack, exploring how to create dynamic and responsive web applications with React, Node.js, Express, and MongoDB.</p>
+              <p>I thrive in collaborative environments, enjoy tackling challenging projects, and stay committed to continuous learning to keep up with emerging technologies and best practices. Whether it’s developing robust backend systems or crafting engaging full-stack solutions, I am driven by the opportunity to innovate and make an impact through technology.</p>
           </div>
         </div>
       </div>
