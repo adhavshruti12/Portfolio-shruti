@@ -4,6 +4,34 @@ import { motion } from 'framer-motion';
 function Skills() {
   const skills = [
     {
+      name: "Java",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+    },
+    {
+      name: "Spring Boot",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+    },
+    {
+      name: "Hibernate",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" // Hibernate doesn't have an official icon, so Java's icon is used here
+    },
+    {
+      name: "SQL",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    },
+    {
+      name: "Postman",
+      icon: "https://www.svgrepo.com/show/354202/postman-icon.svg"
+    },
+    {
+      name: "HTML5",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+      name: "CSS3",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
       name: "JavaScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     },
@@ -16,42 +44,16 @@ function Skills() {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
     },
     {
-      name: "Redux",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
-    },
-    {
       name: "MongoDB",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
     },
     {
-      name: "Figma",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-    },
-    {
-      name: "CSS3",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-    },
-    {
-      name: "HTML5",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-    },
-    {
-      name: "Git",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-    },
-    {
-      name: "VS Code",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-    },
-    {
-      name: "Express",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-    },
-    {
-      name: "Docker",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+      name: "Power BI",
+      icon: "https://www.svgrepo.com/show/376356/power-bi.svg"
     }
   ];
+  
+  
 
   return (
     <div className="container mx-auto px-4 py-20">
