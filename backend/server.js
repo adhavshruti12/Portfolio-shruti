@@ -12,6 +12,7 @@ const corsOptions = {
   origin: 'https://portfolio-shruti-vawt.vercel.app', // Replace with your frontend URL
   methods: 'GET,POST,PUT,DELETE,OPTIONS',
   credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization'],
 };
 
 // Middleware
