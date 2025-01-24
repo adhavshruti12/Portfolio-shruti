@@ -137,10 +137,10 @@ function App() {
       <footer className="bg-dark py-8">
         <div className="container mx-auto px-4 text-center">
           <div className="flex justify-center space-x-6 mb-4">
-            <a href="#" className="text-2xl hover:text-accent transition-colors">
+            <a href="https://github.com/adhavshruti12" className="text-2xl hover:text-accent transition-colors">
               <FaGithub />
             </a>
-            <a href="#" className="text-2xl hover:text-accent transition-colors">
+            <a href="https://www.linkedin.com/in/shruti-adhav-087161242/" className="text-2xl hover:text-accent transition-colors">
               <FaLinkedin />
             </a>
             <a href="#" className="text-2xl hover:text-accent transition-colors">
