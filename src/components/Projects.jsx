@@ -6,14 +6,14 @@ function Projects() {
     {
       title: "Movie Recommendation System",
       description: "A system that recommends movie based on user's preferences using collaborative filtering and content-based filtering techniques.",
-      image: "https://via.placeholder.com/400x300",
+      image: "./images/mv.png",
       tags: ["Spring Boot", "Flask", "Machine Learning: Scikit-learn", "JPA (Java Persistence API)"],
       link: "https://github.com/adhavshruti12/Movie_recommendation_system.git"
     },
     {
       title: "College Fees Management Software",
       description: "A Java-based application to manage college fees, student information, and payment records.",
-      image: "https://via.placeholder.com/400x300",
+      image: "./images/fee.png",
       tags: ["Java", "Swing", "JSP", "JDBC","MySQl", "Eclipse IDE" ],
       link: "https://github.com/adhavshruti12/College_fees_management_software.git"
     },
@@ -21,7 +21,7 @@ function Projects() {
     {
       title: "Algorithm Visualizer",
       description: "Algorithm Visualizer is a web application for visualizing various algorithms including sorting, queue, and stack algorithms. ",
-      image: "https://via.placeholder.com/400x300",
+      image: "./images/algo.png",
       tags: ["HTML", "CSS", "JavaScript", "Python"],
       link: "https://github.com/adhavshruti12/Algorithm-visualizer.git"
     }
