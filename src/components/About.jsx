@@ -27,7 +27,7 @@ function About() {
           <div className="space-y-4 text-gray-300 text-lg">
             <p>
              I am a dedicated Java developer with a strong foundation in building robust backend systems using Spring Boot, Hibernate, and REST APIs. My expertise lies in designing scalable, efficient, and maintainable applications that adhere to the MVC architecture while ensuring seamless integration with DBMS solutions.
-            <p>
+            </p>
              <p>With a passion for clean and efficient coding practices, I take pride in solving complex problems and delivering high-quality software solutions. Beyond backend development, I am expanding my skill set to include the MERN stack, exploring how to create dynamic and responsive web applications with React, Node.js, Express, and MongoDB.</p>
               <p>I thrive in collaborative environments, enjoy tackling challenging projects, and stay committed to continuous learning to keep up with emerging technologies and best practices. Whether it’s developing robust backend systems or crafting engaging full-stack solutions, I am driven by the opportunity to innovate and make an impact through technology.</p>
           </div>
